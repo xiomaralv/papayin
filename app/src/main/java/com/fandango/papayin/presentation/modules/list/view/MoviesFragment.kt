@@ -121,8 +121,8 @@ class MoviesFragment : Fragment(), IMoviesFragment, SwipeRefreshLayout.OnRefresh
     }
 
     override fun moviesSuccess(movies: MoviesResponse) {
-        linearMovies.visibility = View.VISIBLE
-        progressbarListMovies.visibility = View.GONE
+        linearMovies!!.visibility = View.VISIBLE
+        progressbarListMovies!!.visibility = View.GONE
         val listOfMovies: MutableList<Movie> = movies.movies!!
         numberReg = movies.page
         totalPage = movies.totalPages

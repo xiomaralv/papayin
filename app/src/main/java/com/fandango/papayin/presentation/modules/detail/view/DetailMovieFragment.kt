@@ -95,7 +95,6 @@ class DetailMovieFragment : Fragment(), IDetailMovieFragment {
         (activity as BaseActivity).supportActionBar?.title = movie.title
         viewDetailMovie.visibility = View.VISIBLE
         progressbarDetailMovie.visibility = View.GONE
-        fab.visibility = View.VISIBLE
         listProductionRecycler.adapter =
             MyMoviesDetailRecyclerViewAdapter(movie.productionCompanies!!)
         Glide.with(this)
