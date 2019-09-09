@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Papayin</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="item_movie_title"><![CDATA[Fast & Furious: Hobbs & Shaw]]></string>
+    <string name="item_movie_year">2019</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_overview">Esta es una descripción de la película</string>
+    <string name="txt_default_overview">Sinopsis</string>
+    <string name="txt_def_overview">Sinopsis</string>
+    <string name="txt_def_genres">Géneros:</string>
+    <string name="txt_genres">Estos son los géneros</string>
+    <string name="txt_def_country">Países de Producción:</string>
+    <string name="txt_countrys">Estos son los países de producción.</string>
+    <string name="txt_def_production">Países de Producción</string>
+    <string name="item_production_name">Pictures</string>
+</resources>
